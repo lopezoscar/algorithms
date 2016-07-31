@@ -47,6 +47,23 @@ class LinkedList {
 
     }
 
+    insertAfter(node,newNode){
+
+    }
+
+    insertBeginning(list,newNode){
+
+    }
+
+    removeAfter(node){// remove node past this one
+
+    }
+
+    removeBeginning(list,newNode){
+
+    }
+
+
     reverse(){
         if(this.isEmpty()){
             return ;
@@ -76,7 +93,7 @@ class LinkedList {
     }
 
     search(value){
-
+        
     }
 
     remove(value){
