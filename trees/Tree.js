@@ -105,18 +105,6 @@ class Tree {
         }
     }
 
-    sumatoria(node){
-        if(node !== null){
-
-            if(node.left !== null && node.right !== null){
-                return sumatoria(node)+node.value;
-            }else{
-                return 0
-            }
-
-        }
-    }
-
     avg(){
         var props = {
             acc: 0,
